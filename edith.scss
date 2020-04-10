@@ -1,0 +1,28 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+$primary-color: #333;
+
+.button
+{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    margin: 20px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.good 
+{
+    background-color: $primary-color;
+}
